@@ -16,7 +16,6 @@ export function Footer() {
           <a href="#top" aria-label="GENTRICKS home">
             <span className="footer-lockup">
               <img src="/gentricks-logo.svg" alt="" className="footer-logo" />
-              <span>GENTRICKS</span>
             </span>
           </a>
           <p>Where the Next Generation Connects, Creates, and Leads.</p>

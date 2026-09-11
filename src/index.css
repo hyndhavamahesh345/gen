@@ -364,7 +364,7 @@ h2 {
 
 .hero-visual {
   position: relative;
-  width: min(100%, 640px);
+  width: min(100%, 560px);
   min-height: 0;
   margin-left: auto;
   border: 1px solid var(--line);
@@ -375,7 +375,7 @@ h2 {
 
 .hero-image-visual {
   position: relative;
-  height: clamp(530px, 45vw, 640px);
+  height: clamp(460px, 40vw, 560px);
   margin: 0;
   isolation: isolate;
 }

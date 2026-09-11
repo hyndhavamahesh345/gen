@@ -32,7 +32,7 @@ export function Header() {
     <header className={'site-header' + (isScrolled ? ' is-scrolled' : '')}>
       <div className="site-container header-inner">
         <a href="#top" className="brand" aria-label="GENTRICKS home" onClick={closeMenu}>
-          <img src="/gentricks-mark.svg" alt="GENTRICKS" className="brand-logo" />
+          <img src="/gentricks-logo.svg" alt="GENTRICKS" className="brand-logo" />
         </a>
 
         <nav id="main-navigation" className={'main-nav' + (isOpen ? ' is-open' : '')} aria-label="Main navigation">

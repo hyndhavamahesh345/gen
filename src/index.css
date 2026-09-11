@@ -1729,3 +1729,29 @@ h2 {
   .program-card-4,
   .program-card-5 { grid-column: span 1 !important; }
 }
+
+/* Final phone layout pass: these rules intentionally come after the desktop
+   alignment pass so the mobile grid cannot be widened by its minmax columns. */
+@media (max-width: 840px) {
+  .hero-grid { min-height: auto; }
+  .ecosystem-layout { grid-template-columns: 1fr; gap: 32px; }
+  .ecosystem-feature { order: -1; width: min(100%, 560px); justify-self: center; }
+  .program-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .program-card h2 { font-size: clamp(1.2rem, 3.4vw, 1.7rem); }
+}
+
+@media (max-width: 580px) {
+  .page-hero { padding-top: 116px; padding-bottom: 64px; }
+  .page-hero h1 { font-size: clamp(2.25rem, 11vw, 3.2rem); line-height: 0.98; }
+  .page-hero > .site-container > p:last-child { font-size: 0.98rem; }
+  .ecosystem-layout { gap: 28px; }
+  .person-row { min-height: 70px; }
+  .person-copy { gap: 4px; }
+  .person-copy strong { font-size: 1.15rem; }
+  .person-copy small { font-size: 0.75rem; }
+  .ecosystem-feature-copy { font-size: 0.86rem; }
+  .program-grid { grid-template-columns: 1fr; }
+  .join-form-grid { grid-template-columns: 1fr; }
+  .paths-grid { grid-template-columns: 1fr; }
+  .path-card { min-height: 170px; }
+}

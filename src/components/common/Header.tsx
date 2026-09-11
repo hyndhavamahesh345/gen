@@ -33,7 +33,6 @@ export function Header() {
       <div className="site-container header-inner">
         <a href="#top" className="brand" aria-label="GENTRICKS home" onClick={closeMenu}>
           <img src="/Gentricks_Logo.jpg" alt="" className="brand-logo" />
-          <span className="brand-name">GENTRICKS</span>
         </a>
 
         <nav id="main-navigation" className={'main-nav' + (isOpen ? ' is-open' : '')} aria-label="Main navigation">

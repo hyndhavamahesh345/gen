@@ -1730,6 +1730,26 @@ h2 {
   .program-card-5 { grid-column: span 1 !important; }
 }
 
+/* Mobile header/content alignment: keep the header in the document flow so it
+   never covers the first lines of the hero or section pages. */
+@media (max-width: 840px) {
+  html { scroll-padding-top: 70px; }
+  .site-header { position: sticky; background: var(--ink); border-bottom-color: var(--line); }
+  .site-header.is-scrolled { background: var(--ink); }
+  .header-inner { grid-template-columns: minmax(0, 1fr) auto auto; gap: 8px; }
+  .desktop-nav-join { min-height: 40px; padding: 8px 10px; font-size: 0.7rem; }
+  .menu-toggle { width: 42px; height: 42px; }
+  .hero { padding-top: 48px; }
+  .page-hero { padding-top: 72px; }
+}
+
+@media (max-width: 580px) {
+  .hero { padding-top: 36px; }
+  .brand-name { margin-left: 7px; font-size: 0.76rem; letter-spacing: 0.1em; }
+  .desktop-nav-join { padding-inline: 8px; font-size: 0.65rem; }
+  .desktop-nav-join svg { width: 13px; height: 13px; }
+}
+
 /* Final phone layout pass: these rules intentionally come after the desktop
    alignment pass so the mobile grid cannot be widened by its minmax columns. */
 @media (max-width: 840px) {

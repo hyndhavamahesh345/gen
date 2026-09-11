@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="85 125 220 125" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800;900&amp;display=swap');
+      .font-gen {
+        font-family: 'Syne', -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 34.44px;
+        fill: #000000;
+        letter-spacing: -0.5px;
+      }
+      .font-tricks {
+        font-family: 'Syne', -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 23.13px;
+        fill: #FFFFFF;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+  <!-- Main Gentricks Yellow Circle -->
+  <circle cx="146.65" cy="187.5" r="55.03" fill="#FFDE00" />
+  <!-- Signature Floating Yellow Accent Dot -->
+  <circle cx="290.40" cy="200.53" r="7.03" fill="#FFDE00" />
+  <!-- Black GEN Inside Circle -->
+  <text x="106.62" y="198.5" class="font-gen">GEN</text>
+  <!-- White TRICKS Outside Circle -->
+  <text x="187.5" y="195.0" class="font-tricks">TRICKS</text>
+</svg>

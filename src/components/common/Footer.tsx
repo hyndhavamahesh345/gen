@@ -15,7 +15,7 @@ export function Footer() {
         <div className="footer-brand">
           <a href="#top" aria-label="GENTRICKS home">
             <span className="footer-lockup">
-              <img src="/Gentricks_Logo.jpg" alt="" className="footer-logo" />
+              <img src="/gentricks-logo.svg" alt="" className="footer-logo" />
               <span>GENTRICKS</span>
             </span>
           </a>

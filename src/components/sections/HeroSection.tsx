@@ -73,7 +73,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="art-ring ring-three" />
 
         <div className="art-center">
-          <img src="/Gentricks_Logo.jpg" alt="GENTRICKS" />
+          <img src="/gentricks-logo.svg" alt="GENTRICKS" />
           <span>
             LEARN
             <br />
